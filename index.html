@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Convite da Sofia 💙</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive;
+      background: linear-gradient(135deg, #e1f5fe, #b3e5fc);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .container {
+      background: white;
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      text-align: center;
+      max-width: 500px;
+    }
+    .container img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 12px;
+    }
+    h1 {
+      color: #0077c2;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      margin: 8px 0;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      background: #25D366;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 1.1em;
+    }
+    .btn:hover {
+      background: #1ebc59;
+    }
+    audio {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://i.pinimg.com/originals/f0/d6/e5/f0d6e5ab8e3b23c0310383b7497f3a55.gif" alt="Stitch dançando e soltando balões" />
+    <h1>Você está convidado!</h1>
+    <p>Vamos comemorar os <strong>5 aninhos</strong> da Sofia Ellen 🎉</p>
+    <p><strong>🗓 Data:</strong> 17 de agosto de 2025</p>
+    <p><strong>🕛 Hora:</strong> A partir do meio-dia</p>
+    <p><strong>📍 Local:</strong> Av. Olímpico Domingos Cardoso, nº 607 - Bairro Fênix</p>
+    <a class="btn" href="https://wa.me/5531985964011?text=Oi%2C+vou+na+festa+da+Sofia%21+%F0%9F%8E%89" target="_blank">
+      Confirmar Presença no WhatsApp
+    </a>
+    <audio autoplay loop id="bg-music">
+      <source src="https://cdn.pixabay.com/download/audio/2022/03/22/audio_31b1d41682.mp3?filename=kids-party-112189.mp3" type="audio/mpeg">
+      Seu navegador não suporta áudio.
+    </audio>
+    <script>
+      const audio = document.getElementById('bg-music');
+      audio.volume = 0.3;
+    </script>
+  </div>
+</body>
+</html>
